@@ -1,7 +1,7 @@
 Metadata-Version: 2.4
 Name: adaptive-context-retrieval
 Version: 0.1.0
-Summary: Adaptive Budget-Aware Context Retrieval Using Repository Graphs for LLM-Based Coding Agents
+Summary: Adaptive-Cost-Aware-Context-SelectionUsing Repository Graphs for LLM-Based Coding Agents
 Requires-Python: >=3.12
 Requires-Dist: networkx
 Requires-Dist: typer

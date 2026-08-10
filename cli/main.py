@@ -49,7 +49,7 @@ from metrics.dependency_coverage import DependencyCoverage
 
 app = typer.Typer(
     name="adaptive-context",
-    help="Adaptive Budget-Aware Context Retrieval for LLM Coding Agents",
+    help="Adaptive-Cost-Aware-Context-Selectionfor LLM Coding Agents",
     pretty_exceptions_enable=False,
 )
 
@@ -111,7 +111,7 @@ def retrieve(
         help="Path to scoring config YAML",
     ),
 ) -> None:
-    """Run adaptive budget-aware context retrieval on a Python repository.
+    """Run Adaptive-Cost-Aware-Context-Selectionon a Python repository.
 
     Parses the repository, builds a dependency graph, runs both
     baseline BFS and adaptive budget-aware retrieval, then

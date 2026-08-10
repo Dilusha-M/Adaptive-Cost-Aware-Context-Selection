@@ -129,7 +129,7 @@ class AdaptiveRetrievalResult:
 
 
 class AdaptiveBudgetRetriever:
-    """Adaptive budget-aware context retrieval algorithm.
+    """Adaptive-Cost-Aware-Context-Selectionalgorithm.
 
     Uses a priority queue to expand the most relevant nodes first,
     respecting a configurable token budget. Each candidate node is
