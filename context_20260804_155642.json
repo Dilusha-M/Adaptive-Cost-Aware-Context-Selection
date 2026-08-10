@@ -1,0 +1,60 @@
+{
+  "query": "LoginService",
+  "algorithm": "Adaptive Budget-Aware",
+  "budget": 5000,
+  "tokens_used": 701.0,
+  "nodes_retrieved": 4,
+  "context": {
+    "total_characters": 3210,
+    "estimated_tokens": 802,
+    "line_count": 89,
+    "node_count": 4,
+    "files": [
+      "analytics_service.py",
+      "auth_service.py",
+      "database_config.py"
+    ],
+    "nodes": [
+      {
+        "node_id": "analytics_service.py::AnalyticsService",
+        "name": "AnalyticsService",
+        "node_type": "class",
+        "file_path": "analytics_service.py",
+        "char_count": 944,
+        "estimated_token_cost": 236,
+        "start_line": 5,
+        "end_line": 33
+      },
+      {
+        "node_id": "auth_service.py::LoginService",
+        "name": "LoginService",
+        "node_type": "class",
+        "file_path": "auth_service.py",
+        "char_count": 1453,
+        "estimated_token_cost": 363,
+        "start_line": 26,
+        "end_line": 62
+      },
+      {
+        "node_id": "auth_service.py::create_login_service",
+        "name": "create_login_service",
+        "node_type": "function",
+        "file_path": "auth_service.py",
+        "char_count": 239,
+        "estimated_token_cost": 59,
+        "start_line": 65,
+        "end_line": 69
+      },
+      {
+        "node_id": "database_config.py::create_default_config",
+        "name": "create_default_config",
+        "node_type": "function",
+        "file_path": "database_config.py",
+        "char_count": 172,
+        "estimated_token_cost": 43,
+        "start_line": 32,
+        "end_line": 34
+      }
+    ]
+  }
+}

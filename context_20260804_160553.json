@@ -1,0 +1,28 @@
+{
+  "query": "LoginService",
+  "algorithm": "Adaptive Budget-Aware",
+  "budget": 100,
+  "tokens_used": 59.0,
+  "nodes_retrieved": 1,
+  "context": {
+    "total_characters": 311,
+    "estimated_tokens": 77,
+    "line_count": 8,
+    "node_count": 1,
+    "files": [
+      "auth_service.py"
+    ],
+    "nodes": [
+      {
+        "node_id": "auth_service.py::create_login_service",
+        "name": "create_login_service",
+        "node_type": "function",
+        "file_path": "auth_service.py",
+        "char_count": 239,
+        "estimated_token_cost": 59,
+        "start_line": 65,
+        "end_line": 69
+      }
+    ]
+  }
+}

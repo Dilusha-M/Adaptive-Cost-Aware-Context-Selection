@@ -1,0 +1,12 @@
+# Scoring configuration for adaptive retrieval
+# Weights are normalized to sum to 1.0 during scoring.
+#
+# keyword_weight:  Relevance of node name to query terms (0.0-1.0)
+# dependency_weight:  Structural importance via dependency graph (0.0-1.0)
+# centrality_weight:  Graph centrality metric importance (0.0-1.0)
+# token_weight:  Preference for lower-cost nodes (0.0-1.0)
+
+keyword_weight: 0.40
+dependency_weight: 0.30
+centrality_weight: 0.20
+token_weight: 0.10

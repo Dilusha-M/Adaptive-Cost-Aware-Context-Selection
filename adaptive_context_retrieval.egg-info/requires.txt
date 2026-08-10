@@ -1,0 +1,6 @@
+networkx
+typer
+rich
+
+[dev]
+pytest>=7.0
